@@ -3,65 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Women's Reproductive Health</title>
+    <title>Clean Look Aesthetic</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <h1>Women's Reproductive Health</h1>
+            <h1>Clean Look Aesthetic</h1>
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="about" class="neutral-bg">
+    <section id="about" class="section">
         <div class="container">
             <h2>About Us</h2>
-            <p>Welcome to Women's Reproductive Health, your trusted source for comprehensive information and services related to women's reproductive wellness. Our team of experts is dedicated to providing compassionate care and support to women of all ages.</p>
+            <p>Welcome to Clean Look Aesthetic, where simplicity meets sophistication. We specialize in creating minimalist designs that leave a lasting impression.</p>
         </div>
     </section>
 
-    <section id="services" class="light-bg">
+    <section id="services" class="section light-bg">
         <div class="container">
             <h2>Our Services</h2>
             <div class="service">
-                <h3>Family Planning</h3>
-                <p>Comprehensive family planning services including contraception counseling, birth control options, and fertility awareness.</p>
+                <h3>Web Design</h3>
+                <p>Clean and modern website designs tailored to your brand's aesthetic.</p>
             </div>
             <div class="service">
-                <h3>Maternal Health</h3>
-                <p>Prenatal care, childbirth education, and postpartum support to ensure the health and well-being of mothers and babies.</p>
+                <h3>Graphic Design</h3>
+                <p>Minimalist and elegant graphic designs for logos, branding, and marketing materials.</p>
             </div>
             <div class="service">
-                <h3>Reproductive Disorders</h3>
-                <p>Diagnosis and treatment of reproductive disorders such as PCOS, endometriosis, and uterine fibroids.</p>
+                <h3>UI/UX Design</h3>
+                <p>User-friendly interfaces and intuitive user experiences to enhance customer engagement.</p>
             </div>
-            <!-- Add more services here -->
         </div>
     </section>
 
-    <section id="resources" class="neutral-bg">
+    <section id="portfolio" class="section">
         <div class="container">
-            <h2>Resources</h2>
-            <ul>
-                <li><a href="#">Articles</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="#">Support Groups</a></li>
-            </ul>
+            <h2>Portfolio</h2>
+            <p>Check out some of our latest projects showcasing our clean and aesthetic designs:</p>
+            <!-- Portfolio items can be added here -->
         </div>
     </section>
 
-    <section id="contact" class="light-bg">
+    <section id="contact" class="section light-bg">
         <div class="container">
             <h2>Contact Us</h2>
-            <p>If you have any questions or would like to schedule an appointment, please don't hesitate to reach out to us:</p>
+            <p>Ready to elevate your brand with our clean and aesthetic designs? Reach out to us:</p>
             <form action="#">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -74,10 +70,101 @@
         </div>
     </section>
 
-    <footer class="neutral-bg">
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Women's Reproductive Health. All rights reserved.</p>
+            <p>&copy; 2024 Clean Look Aesthetic. All rights reserved.</p>
         </div>
     </footer>
 </body>
 </html>
+And here's the corresponding CSS (styles.css):
+
+css
+Copy code
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.header h1 {
+    margin: 0;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 30px;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.light-bg {
+    background-color: #f9f9f9;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+     
